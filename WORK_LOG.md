@@ -1,9 +1,9 @@
-Name: YOUR NAME HERE
+Name: Alexandre Haddad-Delaveau
 
-| Date    |  Time  |                                     Update |
-|:--------|:------:|-------------------------------------------:|
-| April 5 | 9-10pm | I tried to write abstract, efficient code. |
-|         |        |                                            |
+| Date  |    Time     |                                                                                                                                                                                                                                                                                                                                                                                                                     Update |
+|:------|:-----------:|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| Jan 6 | 9:30-10:00  |                                                                                                                                                                                                                                                                                                                   Did some brainstorming using BFS, but decided to end up using DFS (w/ trie). Did not start implementing. |
+| Jan 8 | 14:30-15:00 | Implemented DFS and a Trie. Had some issues with using static variables, since the test class does not re-create the boggle class each time it solves a puzzle, leading to variables like dictionary and found words containing items from previous uses. These are fixed, but I'd like to switch away from static variables next commit to make it easier to read... since I'm not really even using the static features. |
 
 
 To add a new row to the table, click into a cell and then hit shift-enter.
